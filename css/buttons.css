@@ -1,0 +1,39 @@
+.btn {
+  text-transform: uppercase;
+  padding: 17px 25px;
+  transition: 0.2s;
+  border-radius: 8px;
+}
+
+.btn-light {
+  width: 152px;
+  height: 56px;
+  background-color: var(--white);
+  &:hover {
+    color: var(--white);
+    background-color: var(--light_peach);
+  }
+}
+
+.btn-dark {
+  background-color: var(--peach);
+  color: var(--white);
+  &:hover {
+    background-color: var(--light_peach);
+    color: #fff;
+  }
+}
+
+.btn-getInTough {
+  text-transform: uppercase;
+  padding: 17px 25px;
+  transition: 0.2s;
+  width: 170px;
+  height: 56px;
+  border-radius: 8px;
+  background-color: var(--white);
+  &:hover {
+    color: var(--white);
+    background-color: var(--light_peach);
+  }
+}

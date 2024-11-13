@@ -1,0 +1,67 @@
+@import "../../css/global.css";
+
+/* Hero */
+.app__hero {
+  background-color: var(--peach);
+  width: 1111px;
+  height: 292px;
+  border-radius: 15px;
+  background-image: url(../../images/app-design/desktop/bg-pattern-intro-app.svg);
+  background-position: left;
+  background-repeat: no-repeat;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.app__hero-title {
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 48px;
+  margin-bottom: 24px;
+}
+
+/* Cards section */
+
+.app_cards {
+  margin-top: 160px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 32px;
+}
+
+.app__card {
+  width: 350px;
+  height: 478px;
+  text-align: center;
+  background-color: rgba(253, 243, 240, 1);
+  border-radius: 15px;
+  transition: 0.2s;
+  cursor: pointer;
+  &:hover {
+    background-color: rgba(231, 129, 107, 1);
+    h3,
+    p {
+      color: #fff;
+    }
+  }
+  img {
+    width: 350px;
+    height: 320px;
+    border-radius: 15px 15px 0px 0px;
+  }
+  h3 {
+    margin-top: 32px;
+    margin-bottom: 16px;
+    color: var(--peach);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 5px;
+  }
+  p {
+    color: rgba(51, 49, 54, 1);
+  }
+}

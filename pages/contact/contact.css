@@ -1,0 +1,58 @@
+@import "../../css/global.css";
+
+/* Contact */
+.contact__container {
+  display: flex;
+  background-color: var(--peach);
+  border-radius: 15px;
+  height: 480px;
+  padding: 0 96px;
+  background-image: url(../../images/contact/desktop/bg-pattern-hero-desktop.svg);
+  background-repeat: no-repeat;
+  background-position: bottom left;
+}
+.contact__text {
+  width: 540px;
+  height: 184px;
+  margin-top: 135px;
+  margin-bottom: 161px;
+  h2 {
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 48px;
+    margin-bottom: 32px;
+  }
+  p {
+    width: 445px;
+    height: 104px;
+  }
+}
+.contact__form {
+  margin: 55px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  input {
+    width: 380px;
+    height: 38px;
+    padding-left: 16px;
+    padding-bottom: 11px;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid white;
+    &:focus {
+      outline: none;
+    }
+    &::placeholder {
+      font-size: 15px;
+      font-weight: 500;
+      line-height: 26px;
+      color: rgba(255, 255, 255, 50%);
+    }
+    &:nth-child(4) {
+        width: 380px;
+        height: 102px;
+      }
+      
+  }
+}

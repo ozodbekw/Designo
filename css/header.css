@@ -1,0 +1,25 @@
+.siteheader {
+  margin-top: 64px;
+  margin-bottom: 67px;
+  img {
+    width: 196px;
+    height: 24px;
+  }
+}
+
+.siteheader__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.siteheader__nav-list {
+  display: flex;
+  gap: 42px;
+  a:hover {
+    text-decoration: underline;
+  }
+}
+
+.list-item a {
+  color: var(--dark_grey);
+}
