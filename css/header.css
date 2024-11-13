@@ -15,11 +15,12 @@
 .siteheader__nav-list {
   display: flex;
   gap: 42px;
-  a:hover {
-    text-decoration: underline;
-  }
 }
 
 .list-item a {
+  transition: 0.3s;
   color: var(--dark_grey);
+  &:hover {
+    text-decoration: underline;
+  }
 }
