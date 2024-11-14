@@ -59,13 +59,25 @@
             </p>
           </div>
           <form class="contact__form">
-            <input class="input-name" type="text" placeholder="Name" />
-            <input type="email" placeholder="EmailAdress" />
-            <input type="number" placeholder="Phone" />
+            <input class="input-name" type="text" placeholder="Name" required />
+            <input
+              type="email"
+              placeholder="Email Adress"
+              pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+              title="Can’t be empty "
+              required
+            />
+            <input
+              type="number"
+              placeholder="Phone"
+              pattern="\(\d{2}\) \d{3}-\d{2}-\d{2}"
+              required
+            />
             <input
               class="input-message"
               type="text"
               placeholder="Your Message"
+              required
             />
             <button style="border: 0; cursor: pointer" class="btn btn-light">
               Submit

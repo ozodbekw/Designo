@@ -23,5 +23,7 @@
   color: var(--dark_grey);
   &:hover {
     text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px; 
   }
 }

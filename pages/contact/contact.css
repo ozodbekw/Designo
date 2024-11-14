@@ -33,6 +33,7 @@
   flex-direction: column;
   gap: 25px;
   input {
+    color: #fff;
     width: 380px;
     height: 38px;
     padding-left: 16px;
@@ -41,6 +42,7 @@
     border: 0;
     border-bottom: 1px solid white;
     &:focus {
+      border-bottom: 3px solid white;
       outline: none;
     }
     &::placeholder {
@@ -50,9 +52,8 @@
       color: rgba(255, 255, 255, 50%);
     }
     &:nth-child(4) {
-        width: 380px;
-        height: 102px;
-      }
-      
+      width: 380px;
+      height: 102px;
+    }
   }
 }
