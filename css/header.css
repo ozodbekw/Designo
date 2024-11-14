@@ -18,6 +18,7 @@
 }
 
 .list-item a {
+  display: flex;
   transition: 0.3s;
   color: var(--dark_grey);
   &:hover {
