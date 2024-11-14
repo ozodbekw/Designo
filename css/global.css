@@ -93,12 +93,12 @@ a {
     letter-spacing: 5px;
   }
   &:hover {
-    background: rgba(231, 129, 107, 80.6%);
+    background-color: rgba(255, 173, 155, 0.6);
   }
 }
 
 /* Design Cards */
-.design__card-2{
+.design__card-2 {
   margin-top: 160px;
   margin-bottom: 95px;
   display: flex;
@@ -154,7 +154,6 @@ a {
   height: 52px;
 }
 
-
 /* Locations */
 
 .locations {
@@ -182,3 +181,5 @@ a {
   letter-spacing: 5px;
   color: var(--black);
 }
+
+

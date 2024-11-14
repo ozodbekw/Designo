@@ -24,6 +24,29 @@
   &:hover {
     text-decoration: underline;
     text-decoration-thickness: 1px;
-    text-underline-offset: 2px; 
+    text-underline-offset: 2px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .siteheader__nav {
+    display: none;
+  }
+  .siteheader {
+
+    margin: 34px 24px;
+    width: 327px;
+    height: 27px;
+    padding: 35px 24px;
+    img {
+      width: 202px;
+      height: 27px;
+      margin: 0;
+      padding: 0;
+    }
+  }
+  .container {
+    overflow: hidden;
+    padding: 24px;
   }
 }
