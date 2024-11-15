@@ -182,4 +182,113 @@ a {
   color: var(--black);
 }
 
+@media only screen and (max-width: 375px) {
+  *{
+    box-sizing:border-box;
+  }
+  .container {
+    width: 100%;
+    margin: 0 30px;
+    padding: 0;
+  }
 
+  /* Design cards */
+
+  .design__card {
+    padding: 56px 90px;
+    background-color: rgba(0, 0, 0, 50%);
+    background-blend-mode: overlay;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 24px;
+    cursor: pointer;
+    transition: 0.3s;
+    h3 {
+      width: 230px;
+      height: 36px;
+      font-size: 25px;
+      font-weight: 500;
+      line-height: 36px;
+      letter-spacing: 1.399999976158142px;
+    }
+    p {
+      font-size: 15px;
+      font-weight: 500;
+      line-height: 21.68px;
+      letter-spacing: 5px;
+    }
+    a {
+      padding: 0 !important;
+      color: var(--white);
+      font-size: 15px;
+      font-weight: 500;
+      line-height: 21.68px;
+      letter-spacing: 5px;
+    }
+    &:hover {
+      background-color: rgba(255, 173, 155, 0.6);
+    }
+  }
+
+  /* Design Cards */
+  .design__card-2 {
+    display: flex;
+    gap: 30px;
+    div:nth-child(1) {
+      width: 327px;
+      height: 27px;
+      background-image: url(../../images/home/desktop/image-app-design.jpg);
+    }
+    div:nth-child(2) {
+      width: 327px;
+      height: 27px;
+      background-image: url(../../images/home/desktop/image-graphic-design.jpg);
+    }
+  }
+
+  /* Let’s talk about your project */
+
+  .aboutproject {
+    width: 327px;
+    height: 379px;
+    margin-top: 88px;
+    position: relative;
+    top: 72px;
+    background-color: var(--peach);
+    border-radius: 15px;
+    background-image: url(../images/shared/desktop/bg-pattern-call-to-action.svg);
+    background-position: right;
+    background-repeat: no-repeat;
+    a {
+      font-size: 15px;
+      font-weight: 500;
+      line-height: 21.68px;
+      letter-spacing: 1px;
+    }
+  }
+  .aboutproject__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 72px 95px;
+    text-align: center;
+  }
+
+  .aboutproject__title {
+    width: 279px;
+    height: 82px;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 36px;
+  }
+  .aboutproject__subtitle {
+    margin-top: 6px;
+    margin-bottom: 32px;
+    width: 279px;
+    height: 75px;
+  }
+}
