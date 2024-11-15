@@ -109,7 +109,7 @@
   line-height: 26px;
 }
 
-@media only screen and (max-width: 394px) {
+@media only screen and (max-width: 375px) {
   .main {
     width: 100%;
     max-width: 375px;
@@ -129,6 +129,7 @@
     height: 843px;
     padding: 0 !important;
     display: flex;
+    border-radius: 0;
     flex-direction: column;
     background-color: var(--peach);
     background-image: url(../images/home/desktop/bg-pattern-hero-home.svg);

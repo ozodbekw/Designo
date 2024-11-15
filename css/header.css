@@ -28,13 +28,14 @@
   }
 }
 
-@media only screen and (max-width: 394px) {
+@media only screen and (max-width: 375px) {
   .siteheader__nav {
     display: none;
   }
   .siteheader {
-    margin: 34px 24px;
-    padding: 35px 24px;
+    padding: 65px 24px;
+    margin-top: 0;
+    margin-bottom: 0;
     width: 327px;
     height: 27px;
     img {
