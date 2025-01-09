@@ -80,10 +80,8 @@
   .sitefooter {
     width: 100%;
     height: 815px;
-    text-align: center;
   }
   .sitefooter-container {
-    display: flex;
     flex-direction: column;
     margin-bottom: 72px;
   }
