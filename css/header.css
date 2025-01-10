@@ -1,7 +1,7 @@
 .siteheader {
   margin-top: 64px;
   margin-bottom: 67px;
-  img {
+  .siteheader__logo {
     width: 196px;
     height: 24px;
   }
@@ -27,18 +27,26 @@
     text-underline-offset: 2px;
   }
 }
+.siteheader__burger {
+  display: none;
+  position: absolute;
+  right: 24px;
+}
 
 @media only screen and (max-width: 375px) {
   .siteheader__nav {
     display: none;
   }
+  .siteheader__burger {
+    display: block;
+    width: 24px;
+  }
   .siteheader {
     padding: 65px 24px;
     margin-top: 0;
     margin-bottom: 0;
-    width: 327px;
     height: 27px;
-    img {
+    .siteheader__logo {
       width: 202px;
       height: 27px;
       margin: 0;
