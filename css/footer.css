@@ -84,16 +84,12 @@
   .sitefooter-container {
     flex-direction: column;
     margin-bottom: 72px;
+    text-align: center;
   }
   .sitefooter__top {
     margin-top: 120px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    a {
-      color: var(--white);
-    }
   }
   .sitefooter__logo img {
     width: 202px;
@@ -104,16 +100,8 @@
     display: flex;
     flex-direction: column;
     gap: 32px;
-    a {
-      margin-top: 32px;
-      width: 119px;
-      height: 14px;
-    }
-    a:hover {
-      text-decoration: underline;
-      text-decoration-thickness: 1px;
-      text-underline-offset: 2px;
-    }
+    justify-content: center;
+    text-align: center;
   }
 
   .sitefooter__line {
@@ -127,8 +115,8 @@
   .sitefooter__adress {
     width: 327px;
     height: 78px;
-    color: rgba(255, 255, 255, 50%);
-    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .sitefooter__contact {
@@ -137,7 +125,9 @@
     color: rgba(255, 255, 255, 50%);
     width: 327px;
     height: 78px;
-    margin-right: 197px;
+    margin-left: auto;
+    margin-right: auto;
+
     font-weight: 700;
     a {
       color: rgba(255, 255, 255, 50%);
