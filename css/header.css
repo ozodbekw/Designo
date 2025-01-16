@@ -1,12 +1,12 @@
 .siteheader {
   margin-top: 64px;
   margin-bottom: 67px;
-  .siteheader__logo {
-    width: 196px;
-    height: 24px;
-  }
 }
 
+.siteheader__logo {
+  width: 196px;
+  height: 24px;
+}
 .siteheader__container {
   display: flex;
   justify-content: space-between;
@@ -34,8 +34,14 @@
 }
 
 @media only screen and (max-width: 375px) {
+  .container {
+    width: 90vw;
+  }
   .siteheader__nav {
     display: none;
+  }
+  .siteheader__container {
+    width: 90vw !important;
   }
   .siteheader__burger {
     display: block;
